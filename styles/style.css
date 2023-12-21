@@ -90,6 +90,7 @@
   background: transparent;
   cursor: pointer;
   font-size: 14px;
+  text-transform: uppercase;
 }
 
 .theme-menu__button:hover {
