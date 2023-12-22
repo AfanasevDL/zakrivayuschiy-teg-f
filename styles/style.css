@@ -279,7 +279,7 @@
 }
 
 .card__icon-button:focus-visible {
-  border: 1px transparent var(--themes-main-color, #000);
+  border: 1px solid var(--themes-main-color, #000);
 }
 
 .card__like-button {
@@ -292,7 +292,7 @@
   font-family: var(--accent-font, "PressStart2P", sans-serif);
   font-size: 14px;
   font-style: normal;
-  font-variation-settings: "wght" var(--main-font-weight, 400);
+  font-weight: 400;
   mix-blend-mode: difference;
 }
 
