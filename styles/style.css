@@ -184,7 +184,7 @@
   mix-blend-mode: hard-light;
   z-index: 1;
   inset-block-start: 25px;
-  inset-inline-end: 25px;
+  inset-inline-end: clamp(11px, 0.3794rem + 1.3146vw, 25px);
 }
 
 @supports (
@@ -209,6 +209,7 @@
 .card__content {
   display: grid;
   gap: 27px;
+  line-height: 1.16;
   margin-block-start: 25px;
   margin-inline: 25px;
 }
